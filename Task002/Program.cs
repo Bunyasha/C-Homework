@@ -2,9 +2,7 @@
 int firstNumber = new Random().Next(1, 100);
 Console.WriteLine($"Первое число: {firstNumber} ");
 
-int randomizer = new Random().Next(1, 100);
-
-int secondNumber = randomizer;
+int secondNumber = new Random().Next(1, 100);
 Console.WriteLine($"Второе число: {secondNumber} ");
 
 int thirdNumber = new Random().Next(1, 100);
